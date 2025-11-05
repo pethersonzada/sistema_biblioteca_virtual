@@ -42,34 +42,6 @@ O Repositório contêm os arquivos:
 
 - As publicações podem ser pesquisadas por autores e palavras-chave (relacionamentos N).
 
-##  Cardinalidades
-
-Relacionamento x Cardinalidade
-
-GÊNERO — PRATELEIRA	1:1
-
-GÊNERO — PUBLICAÇÃO	1
-
-PUBLICAÇÃO — EXEMPLAR	1
-
-UNIDADE — COLABORADOR	1
-
-COLABORADOR — EMPRÉSTIMO	1
-
-EXEMPLAR — EMPRÉSTIMO	1
-
-EMPRÉSTIMO — COBRANÇA	1:1
-
-COBRANÇA — UNIDADE	N:1
-
-COLABORADOR — RESERVA	1
-
-PUBLICAÇÃO — RESERVA	1
-
-PUBLICAÇÃO — AUTOR	N
-
-PUBLICAÇÃO — PALAVRA_CHAVE	N
-
 ## Ferramentas Utilizadas
 
 Draw.io → Criação do modelo conceitual inicial
@@ -83,10 +55,14 @@ GitHub → Versionamento e documentação
 ### Modelo Conceitual - DRAWIO
 <img width="1651" height="1251" alt="Modelo Conceitual png" src="https://github.com/user-attachments/assets/714226f3-61e2-4076-a308-9d25d3a8ae89" />
 
-### Modelo Conceitual - BRMODELO 
+### Modelo Conceitual - BRMODELO
+
+https://app.brmodeloweb.com/#!/publicview/690a43a3239b2afa2d272d59
 <img width="1344" height="740" alt="Sistema de Biblioteca Conceitual" src="https://github.com/user-attachments/assets/e7e176dc-5f7b-42f9-bdad-86f6038fe589" />
 
 ### Modelo Lógico - BRMODELO
+
+https://app.brmodeloweb.com/#!/publicview/690a5a23239b2afa2d2735ff 
 <img width="957" height="726" alt="Sistema de Biblioteca Lógico" src="https://github.com/user-attachments/assets/44a5592b-c4bb-47ac-af74-7feffe538e50" />
 
 ## Comentário!
